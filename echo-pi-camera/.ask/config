@@ -1,19 +1,8 @@
 {
   "deploy_settings": {
-    "us-alexa": {
+    "default": {
       "skill_id": "",
-      "was_cloned": false,
-      "merge": {
-        "manifest": {
-          "apis": {
-            "custom": {
-              "endpoint": {
-                "uri": "ask-custom-echo-pi-camera-us-alexa"
-              }
-            }
-          }
-        }
-      }
+      "was_cloned": false
     }
   }
 }

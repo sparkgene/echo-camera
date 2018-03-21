@@ -1,47 +1,58 @@
 {
     "interactionModel":{
         "languageModel":{
-            "invocationName":"hello world",
+            "invocationName":"pi camera",
             "types":[],
-            "intents":[
+            "intents": [
                 {
-                  "name": "AMAZON.CancelIntent",
-                  "samples": []
+                    "name": "AMAZON.CancelIntent"
+                  },
+                {
+                    "name": "AMAZON.NavigateHomeIntent"
+                  },
+                  {
+                  "name": "AMAZON.PreviousIntent"
                 },
                 {
-                  "name": "AMAZON.HelpIntent",
-                  "samples": []
+                  "name": "AMAZON.NextIntent"
                 },
                 {
-                  "name": "AMAZON.StopIntent",
-                  "samples": []
+                  "name": "AMAZON.HelpIntent"
                 },
                 {
-                    "name":"HelloWorldIntent",
-                    "slots":[
-
-                    ],
-                    "samples":[
-                        "hello",
-                        "say hello",
-                        "say hello world"
-                    ]
+                  "name": "AMAZON.ScrollUpIntent"
                 },
                 {
-                    "name":"MyNameIsIntent",
-                    "slots":[
-                        {
-                            "name":"name",
-                            "type":"AMAZON.US_FIRST_NAME"
-                        }
-                    ],
-                    "samples":[
-                        "my name is {name}",
-                        "i am {name}",
-                        "you can call me {name}"
-                    ]
+                  "name": "AMAZON.ScrollLeftIntent"
+                },
+                {
+                  "name": "AMAZON.ScrollDownIntent"
+                },
+                {
+                  "name": "AMAZON.ScrollRightIntent"
+                },
+                {
+                  "name": "AMAZON.PageUpIntent"
+                },
+                {
+                  "name": "AMAZON.PageDownIntent"
+                },
+                {
+                  "name": "AMAZON.MoreIntent"
+                },
+                {
+                  "name": "AMAZON.NavigateSettingsIntent"
+                },
+                {
+                  "name": "AMAZON.StopIntent"
+                },
+                {
+                  "name": "ShowVideoIntent",
+                  "samples": [
+                    "show camera"
+                  ]
                 }
-            ]
+              ]
         }
     }
 }
